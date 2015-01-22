@@ -1,0 +1,78 @@
+<DOCTYPE html>
+<meta charset="utf-8"/>
+
+	<html>
+
+<body>
+	<div class="cart">
+	
+		<h1>
+			Cart
+		</h1>
+		<ul class="items">
+			
+		</ul>
+		<div class="total">
+			<strong>total:</strong>
+			<span>
+				
+			</span>
+		</div>
+	</div>
+<script>
+
+var cart = [ ];
+
+ var nameOfProduct = "tootsy";
+ var skuOfProduct = "AB12";
+ var priceOfProduct = 8.50;
+
+var cartItem = {
+
+					name: nameOfProduct,
+					
+					sku: skuOfProduct,
+
+					price: priceOfProduct,
+
+					quantity: 2
+
+				};	
+
+cart.push(cartItem);
+
+ // we need to write this.
+
+refreshCart(1);
+
+function eraseCart() {
+	var list = document.querySelector(".cart ul");
+	list.innerHTML = "";
+	
+}
+
+// Next loop over each of the items in the cart with a for loop:
+function refreshCart(deliveryFee){
+	var total = deliveryFee;
+	var list = document.querySelector(".cart ul");
+	var totalHolder = document.querySelector(".cart .total span");
+
+	eraseCart()
+
+	for (var i = 0; i < cart.length; i++){
+
+		var cartItem = cart[i];   
+		console.log(cartItem);
+   		total = total + cartItem.price * cartItem.quantity;
+
+   		var listItem = document.createElement("li");
+   		listItem.innerText = cartItem.name +": "+ cartItem.price + "*" + cartItem.quantity ; 
+
+   		list.appendChild(listItem);
+	}
+	console.log(total);
+	totalHolder.innerText = total ;
+}
+</script>
+</body>
+</html>

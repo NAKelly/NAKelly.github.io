@@ -1,0 +1,85 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Righteous); 
+
+
+nav {
+    font-family: Raleway;
+    text-align: center;
+}
+body {
+    font-family: Raleway;
+}
+h1 {
+	
+	background-color: 113 255 24;
+	width: 100%;
+	opacity: 70%;
+	text-align: center;
+    text-shadow: 0.1em 0.1em #FFF;
+    font-size: 78px;
+	border-radius: 1px;
+	border-opacity: 90%;
+	z-index: 0;
+
+
+/*link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'> */
+}
+ h2 {
+ 	
+	/*float: left;
+	margin-right: 700px; 
+	height:5px; 
+	width:5px;*/
+    text-align: center;
+	
+	
+}
+h3 {
+	border-radius:5px;
+	height:250px;
+	width:200px;
+	background-color:transparent;
+    opacity: 0.2%;
+	font-family:Raleway;
+	color:black;
+    text-shadow: 0.1em 0.1em #FFF;
+    padding:2px;
+
+
+
+}
+
+h4 {
+
+    background-color: 113 255 24;
+    width: 100%;
+    opacity: 70%;
+    font-family: Raleway;
+    text-align: center;
+    text-shadow: 0.1em 0.1em #FFF;
+    font-size: 20px;
+    border-radius: 1px;
+    border-opacity: 90%;
+    z-index: 0;
+    position: top;
+}
+
+h6 {
+
+    text-align: center;
+}
+/*body {
+	
+	background-repeat: no-repeat;
+	background-position: center;
+    margin: 30px;
+    margin-right: 127px;
+	padding:5px;
+	font-size:28;
+	font-family: Righteous, Helvetica, serif; 
+	margin:2em;
+}*/
+
+
+
+
