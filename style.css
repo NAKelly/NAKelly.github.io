@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway);
 @import url(http://fonts.googleapis.com/css?family=Righteous); 
-
+@import url(http://fonts.googleapis.com/css?family=Fascinate|Rammetto+One|Erica+One|Spicy+Rice|Fascinate+Inline|Chango|Ranchers|Montserrat+Subrayada);
 
 nav {
     font-family: Raleway;
@@ -15,8 +15,9 @@ h1 {
 	width: 100%;
 	opacity: 70%;
 	text-align: center;
-    text-shadow: 0.1em 0.1em #FFF;
-    font-size: 78px;
+        text-shadow: 0.1em 0.1em #FFF;
+        font-family: Fascinate;
+        font-size: 78px;
 	border-radius: 1px;
 	border-opacity: 90%;
 	z-index: 0;
