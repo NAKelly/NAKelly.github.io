@@ -9,8 +9,7 @@ nav {
 body {
     font-family: Raleway;
     background: ##00aa77;
-    background-image: url("zenbg-1.png"), url("zenbg-2.png");
-    background-repeat: repeat-x, repeat;
+    
 }
 h1 {
 	
@@ -39,11 +38,11 @@ h1 {
 	
 }
 h3 {
-	border-radius:2px;
+	/*border-radius:2px;
 	height:250px;
 	width:200px;
 	background-color:transparent;
-    opacity: 0.2%;
+    opacity: 0.2%;*/
 	font-family:Raleway;
 	color:black;
     text-shadow: 0.1em 0.1em #FFF;
@@ -72,17 +71,7 @@ h6 {
 
     text-align: center;
 }
-/*body {
-	
-	background-repeat: no-repeat;
-	background-position: center;
-    margin: 30px;
-    margin-right: 127px;
-	padding:5px;
-	font-size:28;
-	font-family: Righteous, Helvetica, serif; 
-	margin:2em;
-}*/
+
 
 
 
