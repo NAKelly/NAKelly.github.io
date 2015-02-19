@@ -38,15 +38,15 @@ h1 {
 	
 }
 h3 {
-	/*border-radius:2px;
+	border-radius:2px;
 	height:250px;
 	width:200px;
 	background-color:transparent;
-    opacity: 0.2%;*/
+ 	opacity: 0.2%;
 	font-family:Raleway;
 	color:black;
-    text-shadow: 0.1em 0.1em #FFF;
-    padding:2px;
+    	text-shadow: 0.1em 0.1em #FFF;
+    	padding:2px;
 
 
 
