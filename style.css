@@ -38,7 +38,7 @@ h1 {
 	
 }
 h3 {
-	/*border-radius:2px;
+	border-radius:2px;
 	height:250px;
 	width:200px;
 	background-color:solid rgba(255, 0, 0, 0.5);
@@ -68,8 +68,7 @@ h4 {
     font-size: 20px;
     border-radius: 1px;
     border-opacity: 90%;
-    z-index: 0;
-    position: top;
+  
 }
 
 h6 {
