@@ -46,7 +46,7 @@ h3 {
 	font-family:Raleway;
 	color:black;
     	/*text-shadow: 0.1em 0.1em #FFF;
-    	padding:2px;*/
+    	padding:2px;
     	padding: 1px solid rgb(127, 0, 0);
         padding: 1px solid rgba(255, 0, 0, .5);
         -webkit-background-clip: padding-box; /* for Safari */
@@ -58,7 +58,7 @@ h3 {
 }
 
 h4 {
-
+/*
     background-color: 113 255 24;
     width: 100%;
     opacity: 70%;
@@ -69,7 +69,7 @@ h4 {
     border-radius: 1px;
     border-opacity: 90%;
     z-index: 0;
-    position: top;
+    position: top;*/
 }
 
 h6 {
