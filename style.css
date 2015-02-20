@@ -11,7 +11,7 @@ body {
     background: ##00aa77;
     
 }
-p {
+h1 {
 	
 	background-color: 113 255 24;
 	width: 100%;
@@ -75,7 +75,10 @@ h6 {
 
     text-align: center;
 }
-
+p {
+	text-align: center;
+	font-family: Fascinate;
+}
 
 
 
